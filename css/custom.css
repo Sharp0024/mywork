@@ -1,0 +1,49 @@
+.botton {
+    background-color: blue;
+    color: #f8f8f8;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.text{
+    text-transform: uppercase;
+    color: darkgreen;
+}
+
+input{
+    margin: 5px;
+
+}
+
+.mybg{
+background-color: rgb(0, 0, 0);
+}
+
+.my-circle {
+    background-color: dimgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.members {
+    background-color: #a30505;
+    padding: 50px 0px;
+}
+.members-box {
+    width: 1100px;
+    margin: auto;
+
+    background-color: #ffffff;
+    padding: 1px 40px 40px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0.5px rgb(119, 105, 100);
+}

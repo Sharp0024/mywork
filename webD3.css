@@ -1,0 +1,129 @@
+*{
+    @import url(https://fonts.google.com/specimen/Oswald);
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+
+
+ /*----------------------------------------------------------------star header----------------------------------------*/
+ header{
+background-color: black;
+
+}
+
+nav{
+color: #e90f0f;
+display: flex;
+width: 1100px;
+height: 48;
+margin: auto;
+justify-content: space-between;
+align-items: center;
+background-color: blue;
+
+}
+
+logo{
+text-transform: uppercase;
+font: size 24px;
+}
+
+menu{
+display: flex;
+font-size: 20px;
+}
+
+li{
+list-style: none;
+margin-right: 20px;
+}
+
+a{
+    color: #5b1ccf;
+text-decoration: none;
+}
+/*-------------------------star SectionHero-----------------------------------*/
+.hero{
+background-color: aqua;
+width: 1100px;
+margin: auto;
+justify-content: space-between;
+}
+.hero-text-box{
+color: #f7f6f6;
+}
+.hero-button{
+display: flex;
+align-items: center;
+}
+.hero-button-generic{
+background-color: rgb(228, 8, 45);
+padding-block-start: 4px 20px;
+border-radius: 30px;
+margin-right: 20px;
+}
+.hero-button-watch{
+display: flex;
+align-items: center;
+
+}
+.img.hero.img{
+
+}
+
+.pricing{
+    width: 1100px;
+    margin: auto;
+
+    background-color: aquamarine;
+}
+
+.pricing-boxs{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;*/
+}
+
+pricing-boxs--text{
+    background-color: blanchedalmond;
+    width:30px;
+    
+}
+
+.text-h1{
+    color: #e90f0f;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+
+}
+
+.text-param{
+    color: black;
+    text-align: center;
+
+}
+
+
+/*-------------------------star Section-Members-----------------------------------*/
+
+.members{
+background-color: blueviolet;
+padding: 50px 0px ;
+}
+
+
+.members-box{
+    width: 1000px;
+    margin: auto;
+
+    background-color: bisque;
+
+    padding: 1px 40px 40px ;
+    box-shadow: 0px 0px 5px 0.5px;
+    border-radius: 5px;    
+}

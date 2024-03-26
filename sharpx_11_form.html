@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <Link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <h1 class="text-uppercase">tutorial about form</h1>
+    <hr>
+
+
+    <h3> ฟอร์มบันทึกข้อมูล </h3>
+    <form action="">
+        <fieldset>
+            <legend> Text Field </legend>
+            
+            <label for="fname">first Name :</label>
+            <input type="text" name="fname" id="fname" placeholder="กรุณากรอกข้อมูล" required>
+            <br>
+
+            <label for="lname">last Name :</label>
+            <input type="text" name="lname" id="lname" placeholder="กรุณากรอกข้อมูล">
+            <br>
+
+            <label for="age">age :</label>
+            <input type="number" name="age" id="age">
+            <br>
+
+            <label for="age2">age :</label>
+            <input type="number" name="age2" id="age2" min="0" max="120">
+            <br>
+
+            <label for="email">email :</label>
+            <input type="email" name="email" id="email" value="@gmail.com" readonly>
+            <br>
+
+            <label for="birth">birth day :</label>
+            <input type="date" name="birth" id="birth">
+            <br>
+
+        </fieldset>
+    </form>
+
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post"> 
+        <fieldset style="background-color: rgb(190, 179, 241);">
+            <legend> Text Field </legend>
+            
+            <label for="firstname">first Name :</label>
+            <input type="text" name="input_name" id="firstname" >
+            <br>
+
+            <label for="mail">email :</label>
+            <input type="mail" name="input_email" id="mail" >
+            <br><br>
+            <input type="submit">
+
+        </fieldset>
+    </form>
+
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+    <fieldset>
+        <legend> Redio Button </legend>
+        <label for="">เพศ</label>
+        <input type="radio" name="input_gender" id="male" value="male">
+        <label for="male">ชาย</label>
+        <input type="radio" name="input_gender" id="female" value="female">
+        <label for="female">หญิง</label>
+
+        <br><br>
+<input type="submit" value="ยืนยัน">
+
+    </fieldset>
+    </form>
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+    <fieldset>
+        <legend> Check Box </legend>
+    <p>Choose Favarite Web Language</p>
+    <input type="checkbox" id="HTML" name="f-languagle1" value="HTML">
+    <label for="HTML">HTML</label> <br>
+    <input type="checkbox" id="CSS" name="f-languagle2" value="CSS">
+    <label for="CSS">CSS</label> <br>
+    <input type="checkbox" id="JavaScript" name="f-languagle3" value="JavaScript">
+    <label for="JavaScript">JavaScript</label> <br>
+
+    <br><br>
+    <input type="submit" value="ยืนยัน">
+    
+</fieldset>
+    </form>
+
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset>
+            <legend> Drop Dow List</legend>
+            <p>Choose Your Province</p>
+           <!--- <select name="Province" id="Province" size="5" multiple> -->
+                <select name="Province" id="Province">
+                <option value="Nakhon pathom">นครปฐม</option>
+                <option value="ratchaburi">ราชบุรี</option>
+                <option value="suphanburi">สุพรรณบุรี</option>
+            </select>
+    
+            <br><br>
+            <input type="submit" value="ยืนยัน">
+        </fieldset>
+    </form>
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset>
+            <datalist>
+                <legend> Data List</legend>
+                <p>กรุณาเลือก Broeser ที่ท่านเคยใช้</p>
+                <datalist id="">
+                    <option value="chrome">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    </datalist>
+             
+        
+                <br><br>
+                <input type="submit" value="ยืนยัน">
+           
+            </datalist>
+        </fieldset>
+       
+    </form>
+    
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset>
+            <legend> Text Area</legend>
+            <p> Address:</p>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+
+            <br><br>
+        </fieldset>
+        <input type="submit" value="ยืนยัน">
+        <input type="reset" value="ล้างข้อมูล">
+    </form>
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset>
+            <legend>color</legend>
+            <label for="color"></label>choose color
+            <input type="color" name="color" id="color">
+
+            <br><br>
+        </fieldset>
+        <input type="submit" value="ยืนยัน">
+        <input type="reset" value="ล้างข้อมูล">
+    
+    </form>
+    
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset>
+        <legend>Upload File</legend>
+        <label for="Upload ">Choose File</label>
+        <input type="file" id="Upload" name="Upload">
+        
+       
+
+            
+
+        <br><br>
+        <input type="submit" value="ยืนยัน">
+        <input type="reset" value="ล้างข้อมูล">
+    </fieldset>
+    </form>
+
+
+
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset>
+        <input type="submit">
+        <input type="submit" value="ยืนยัน">
+        <button type="submit">ยืนยัน</button>
+       
+        <br><br>
+
+        <input type="reset">
+        <input type="reset" value="ล้างข้อมูล">
+        <button type="reset">ล้างข้อมูล</button>
+
+        <br><br>
+
+        <a href="sharpkup_01_home.html">
+            <input type="button" value="กลับหน้าหลัก">
+        </a>
+
+        <a href="sharpkup_01_home.html">
+            <button type="button">HOME</button>
+        </a>
+    </fieldset>
+    </form>
+
+</body>
+</html>
